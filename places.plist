@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Whistler</string>
+		<key>Website</key>
+		<string>http://www.whistlerblackcomb.com/</string>
+		<key>Image</key>
+		<string>whistler.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Big White</string>
+		<key>Website</key>
+		<string>http://www.bigwhite.com/geo/ca/</string>
+		<key>Image</key>
+		<string>bigWhite.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Capilano Bridge</string>
+		<key>Website</key>
+		<string>https://www.capbridge.com/</string>
+		<key>Image</key>
+		<string>capilano.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stanley Park</string>
+		<key>Website</key>
+		<string>http://vancouver.ca/parks-recreation-culture/stanley-park.aspx</string>
+		<key>Image</key>
+		<string>stanleyPark.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>UBC</string>
+		<key>Website</key>
+		<string>https://www.ubc.ca/</string>
+		<key>Image</key>
+		<string>ubc.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>VanDusen Garden</string>
+		<key>Website</key>
+		<string>http://vancouver.ca/parks-recreation-culture/vandusen-botanical-garden.aspx</string>
+		<key>Image</key>
+		<string>vanDusen.jpg</string>
+	</dict>
+</array>
+</plist>

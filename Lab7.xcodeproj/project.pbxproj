@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		630BF03C1BF1DC1F002D36B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF03B1BF1DC1F002D36B5 /* main.m */; };
 		630BF03F1BF1DC1F002D36B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF03E1BF1DC1F002D36B5 /* AppDelegate.m */; };
-		630BF0421BF1DC1F002D36B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF0411BF1DC1F002D36B5 /* ViewController.m */; };
 		630BF0451BF1DC1F002D36B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630BF0431BF1DC1F002D36B5 /* Main.storyboard */; };
 		630BF0471BF1DC1F002D36B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630BF0461BF1DC1F002D36B5 /* Assets.xcassets */; };
 		630BF04A1BF1DC1F002D36B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630BF0481BF1DC1F002D36B5 /* LaunchScreen.storyboard */; };
 		630BF0551BF1DC20002D36B5 /* Lab7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF0541BF1DC20002D36B5 /* Lab7Tests.m */; };
 		630BF0601BF1DC20002D36B5 /* Lab7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF05F1BF1DC20002D36B5 /* Lab7UITests.m */; };
+		630BF0741BF2BF27002D36B5 /* PlacesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 630BF0731BF2BF27002D36B5 /* PlacesModel.m */; };
+		632084361BF3C0E10066715F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632084351BF3C0E10066715F /* CollectionViewController.m */; };
+		632084431BF3CE3D0066715F /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 632084421BF3CE3D0066715F /* Places.plist */; };
+		632084461BF3DAE60066715F /* PlaceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632084451BF3DAE60066715F /* PlaceCollectionViewCell.m */; };
+		633AE7AA1BF3FC4D00806F9C /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633AE7A91BF3FC4D00806F9C /* PlaceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		630BF03B1BF1DC1F002D36B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		630BF03D1BF1DC1F002D36B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		630BF03E1BF1DC1F002D36B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		630BF0401BF1DC1F002D36B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		630BF0411BF1DC1F002D36B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		630BF0441BF1DC1F002D36B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		630BF0461BF1DC1F002D36B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630BF0491BF1DC1F002D36B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 		630BF05B1BF1DC20002D36B5 /* Lab7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630BF05F1BF1DC20002D36B5 /* Lab7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab7UITests.m; sourceTree = "<group>"; };
 		630BF0611BF1DC20002D36B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630BF0721BF2BF27002D36B5 /* PlacesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesModel.h; sourceTree = "<group>"; };
+		630BF0731BF2BF27002D36B5 /* PlacesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesModel.m; sourceTree = "<group>"; };
+		632084341BF3C0E10066715F /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		632084351BF3C0E10066715F /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		632084421BF3CE3D0066715F /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Places.plist; path = ../Places.plist; sourceTree = "<group>"; };
+		632084441BF3DAE60066715F /* PlaceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceCollectionViewCell.h; sourceTree = "<group>"; };
+		632084451BF3DAE60066715F /* PlaceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceCollectionViewCell.m; sourceTree = "<group>"; };
+		633AE7A81BF3FC4D00806F9C /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		633AE7A91BF3FC4D00806F9C /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +114,18 @@
 			children = (
 				630BF03D1BF1DC1F002D36B5 /* AppDelegate.h */,
 				630BF03E1BF1DC1F002D36B5 /* AppDelegate.m */,
-				630BF0401BF1DC1F002D36B5 /* ViewController.h */,
-				630BF0411BF1DC1F002D36B5 /* ViewController.m */,
+				630BF0721BF2BF27002D36B5 /* PlacesModel.h */,
+				630BF0731BF2BF27002D36B5 /* PlacesModel.m */,
+				633AE7A81BF3FC4D00806F9C /* PlaceDetailViewController.h */,
+				633AE7A91BF3FC4D00806F9C /* PlaceDetailViewController.m */,
+				632084441BF3DAE60066715F /* PlaceCollectionViewCell.h */,
+				632084451BF3DAE60066715F /* PlaceCollectionViewCell.m */,
+				632084341BF3C0E10066715F /* CollectionViewController.h */,
+				632084351BF3C0E10066715F /* CollectionViewController.m */,
 				630BF0431BF1DC1F002D36B5 /* Main.storyboard */,
 				630BF0461BF1DC1F002D36B5 /* Assets.xcassets */,
 				630BF0481BF1DC1F002D36B5 /* LaunchScreen.storyboard */,
+				632084421BF3CE3D0066715F /* Places.plist */,
 				630BF04B1BF1DC1F002D36B5 /* Info.plist */,
 				630BF03A1BF1DC1F002D36B5 /* Supporting Files */,
 			);
@@ -244,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				630BF04A1BF1DC1F002D36B5 /* LaunchScreen.storyboard in Resources */,
+				632084431BF3CE3D0066715F /* Places.plist in Resources */,
 				630BF0471BF1DC1F002D36B5 /* Assets.xcassets in Resources */,
 				630BF0451BF1DC1F002D36B5 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				630BF0421BF1DC1F002D36B5 /* ViewController.m in Sources */,
+				630BF0741BF2BF27002D36B5 /* PlacesModel.m in Sources */,
 				630BF03F1BF1DC1F002D36B5 /* AppDelegate.m in Sources */,
+				632084361BF3C0E10066715F /* CollectionViewController.m in Sources */,
+				633AE7AA1BF3FC4D00806F9C /* PlaceDetailViewController.m in Sources */,
+				632084461BF3DAE60066715F /* PlaceCollectionViewCell.m in Sources */,
 				630BF03C1BF1DC1F002D36B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lab7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Lab7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lab7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Lab7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +520,7 @@
 				630BF0661BF1DC20002D36B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630BF0671BF1DC20002D36B5 /* Build configuration list for PBXNativeTarget "Lab7Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				630BF0691BF1DC20002D36B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630BF06A1BF1DC20002D36B5 /* Build configuration list for PBXNativeTarget "Lab7UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				630BF06C1BF1DC20002D36B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
